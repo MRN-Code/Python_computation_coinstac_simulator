@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   computationPath: path.resolve(
     __dirname,
-    'computation_master.js'
+    'computation.js'
   ),
   local: [{
     dirs: ['site1'],

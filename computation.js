@@ -6,13 +6,13 @@ module.exports = { // eslint-disable-line
   version: '0.0.1',
   cwd: __dirname,
   local: {
-    type: 'cmd',
+    type: 'docker',
     cmd: 'python',
     args: ['./ridge_regress_local.py'],
     verbose: true,
   },
   remote: {
-    type: 'cmd',
+    type: 'docker',
     cmd: 'python',
     args: ['./ridge_regress_master.py'],
     verbose: true,
